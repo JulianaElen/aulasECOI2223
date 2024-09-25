@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#p1 {
+    font-size: 20px;
+}
+
+#p2 {
+    font-size: 1.5rem;
+
+}
+
+#p3  {
+    font-size: 1rem;
+}
+
+#p3:hover {
+    color: blueviolet;
+}
+
+html {
+    font-size: 25px;
+}

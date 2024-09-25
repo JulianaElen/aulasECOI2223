@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+.qwitcher-grypen-bold {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.qwitcher-grypen-regular {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulos {
+    background-color: rgb(252, 181, 181);
+    font-family: "Qwitcher Grypen", cursive;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}

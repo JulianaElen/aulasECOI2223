@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#menu-horizontal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100vh;
+}
+
+#menu-horizontal ul {
+    list-style: none;
+    background-color: black;
+    text-align: right;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12.7px);
+    -webkit-backdrop-filter: blur(12.7px);
+}
+
+#menu-horizontal ul li {
+    display: inline-block;
+}
+
+#menu-horizontal ul li a {
+    font-family: "Lucida Sans", "Lucida Sans Regular";
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    transition: background 1s;
+}
+
+#menu-horizontal ul li a:hover {
+    background-color: rgb(128, 128, 128);
+    opacity: 0.5;
+}
+
+#containerTabela {
+    display: flex;
+    /*centro vertical de toda a tabela*/
+    align-items: center;
+    height: 50vh;
+}
+
+#tabela {
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid black;
+    /*borda externa*/
+    /*tirar espaços das bordas*/
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#tabela thead tr {
+    background-color: lightgreen;
+    text-align: left;
+}
+
+#tabela thead tr th {
+    padding: 15px;
+}
+
+/* linha */
+#tabela tr {
+    border: 3px solid black;
+}
+
+#tabela tr:nth-of-type(even) {
+    background-color: lightgray;
+}
+
+/* celulas */
+#tabela td {
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+
+#sessao1 {
+    background-color: rgb(189, 216, 207);
+    height: 100vh;
+}
+
+#sessao2 {
+    background-color: rgb(163, 212, 196);
+    height: 100vh;
+}
+
+#sessao3 {
+    background-color: rgb(117, 160, 145);
+    height: 100vh;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script defer type="text/javascript" src="codigo.js"></script>
+
+    <title>Outros</title>
+</head>
+
+<body>
+
+    <nav id="menu-horizontal">
+        <ul>
+            <li><a href="./index.html#sessao1">Menu1</a></li>
+            <li><a href="./index.html#sessao2">Menu2</a></li>
+            <li><a href="./index.html#sessao3">Menu3</a></li>
+            <li><a href="./about.html">Menu4</a></li>
+        </ul>
+    </nav>
+
+    <section id="sessao1">
+        <h1>Pagina inicial</h1>
+
+        <p>Mini programa de exemplo</p>
+
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+    </section>
+    <section id="sessao2">
+        <div id="containerTabela">
+            <table id="tabela">
+                <caption>
+                    Titulo geral
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Titulo coluna 1</th>
+                        <th>Titulo coluna 2</th>
+                        <th>Titulo coluna 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>conteudo 1</td>
+                        <td>conteudo 2</td>
+                        <td>conteudo 3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">conteudo 1</td>
+                        <td rowspan="2">conteudo 3</td>
+                    </tr>
+                    <tr>
+                        <td>conteudo 1</td>
+                        <td>conteudo 2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">rodapé</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <section id="sessao3">
+        <form action="#" method="get" target="_blank" autocomplete="off">
+            <section>
+                <h1>Titulo 1</h1>
+                <p>Texto qualquer</p>
+                <fieldset>
+                    <legend>Descrição do grupo</legend>
+                    <p>Texto também</p>
+                    <label for="nameCli">Nome do cliente: </label>
+                    <div>
+                        <input type="text" id="nameCli" name="txtNomeCli" placeholder="Nome" required />
+                    </div>
+                    <div>
+                        <label for="mailCli">Email do cliente: </label>
+                        <input type="email" id="mailCli" name="txtMailCli" placeholder="E-Mail" />
+                    </div>
+                    <div>
+                        <label for="optCli">Opção do cliente: </label>
+                        <input type="checkbox" id="optCli" name="chkOptCli" checked />
+                    </div>
+                    <p>Sexo:</p>
+                    <div style="display: flex">
+                        <label for="optSexMas">Masculino: </label>
+                        <input type="radio" id="optSexMas" name="sexCli" value="Mas" />
+                        <label for="optSexFem">Feminino: </label>
+                        <input type="radio" id="optSexFem" name="sexCli" value="Fem" />
+                    </div>
+                    <div>
+                        <label for="optSexFem">Sexo: </label>
+                        <select id="cmbSexo" name="optCmbSexo">
+                            <option value="M" label="Masculino"></option>
+                            <option value="F" label="Feminino"></option>
+                        </select>
+                    </div>
+                    <div style="display: block; padding-top: 10px; padding-right: 10px">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar campos</button>
+                    </div>
+                </fieldset>
+            </section>
+        </form>
+    </section>
+
+</body>
+
+</html>

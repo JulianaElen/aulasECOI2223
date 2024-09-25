@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#containerCalculadora {
+    border: 2px solid rgb(122, 118, 118);
+    border-radius: 15px;
+    margin: 1rem 2rem;
+    padding: 1rem 1rem;
+}
+
+#containerItens {
+    display: flex;
+}
+
+#containerFormulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#buttonCalcular,
+#labelPeso {
+   margin-top: 1rem; 
+}
+
+#containerIndice,
+#containerSituacao {
+    display: flex;
+}
+
+#containerResultado {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: rgba(134, 134, 134, 0.596);
+    padding: 1rem;
+    padding-right: 5rem;
+}
+
+#containerResultado p {
+    margin: 0;
+    margin-left: 5px;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+
+}
